@@ -1,6 +1,22 @@
 {
+    "amobee":{
+        "logoUrl": "images/places/logo-amobee.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Amobee Inc. (renamed to Nexxen)"}
+        }
+    },
+
+    "salesforce":{
+        "logoUrl": "images/places/logo-salesforce.svg",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Salesforce Inc"}
+        }
+    },
+
     "adobe": {
-        "logoUrl": "images/places/logo-adobe.png",
+        "logoUrl": "images/places/logo-onetrust.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
             "en": {"name": "Adobe Inc."}
@@ -8,8 +24,8 @@
     },
 
     "apple": {
-        "logoUrl": "images/places/logo-apple.png",
-        "faIcon": "fab fa-apple",
+        "logoUrl": "images/places/logo-onetrust.svg",
+        "faIcon": "fa fa-house-laptop",
         "locales": {
             "en": {"name": "Apple Inc."}
         }

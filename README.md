@@ -8,6 +8,7 @@ This page is created using [Ryan Balieiro](https://github.com/ryanbalieiro/vue-r
 
 This is based on a template and still has a lot of old data in it. Known issues that need to be corrected:
 
+- [ ] Update workflow to include build step (thus removing the node_modules and dist folders)
 - [x] Update profile picture
 - [ ] Update name
 - [x] Update short bio

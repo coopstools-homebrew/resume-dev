@@ -11,6 +11,10 @@ This is based on a template and still has a lot of old data in it. Known issues 
 - [x] Update profile picture
 - [ ] Update name
 - [x] Update short bio
-- [ ] Update short bio
+- [x] Update short bio
 - [ ] Remove unused languages
-- [ ] Update Social Links
+- [x] Update Social Links
+- [x] Find Icons for past jobs
+- [ ] Update Experience page
+- [ ] Find Icons for School
+- [ ] Update Education page

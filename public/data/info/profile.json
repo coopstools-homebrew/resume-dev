@@ -57,8 +57,8 @@
 
         "phone": {
             "id": "phone",
-            "value": "+1 (813) 610-327",
-            "valueShort": "+1 (813) 610-327",
+            "value": "+1 (813) 610-3327",
+            "valueShort": "+1 (813) 610-3327",
             "faIcon": "fa-solid fa-phone",
             "href": "tel:8136103327"
         }

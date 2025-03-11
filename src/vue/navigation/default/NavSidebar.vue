@@ -20,11 +20,6 @@
 
         <!-- Footer -->
         <div class="nav-sidebar-footer" v-if="profileData">
-            <!-- Language Picker -->
-            <LanguagePicker :display-language-label="navigation.isSidebarExpanded()"
-                            class="language-picker"
-                            :class="navigation.isSidebarExpanded() ? '' : 'mb-3'"/>
-
             <!-- Credits -->
             <div class="nav-sidebar-footer-credits text-2 mt-2 pt-1 mb-2 mb-xxl-3">
                 <span v-html="profileData['locales']['credits']"/>

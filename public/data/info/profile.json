@@ -1,84 +1,66 @@
 {
-    "name": "Jonas Einstein",
+    "name": "James R Cooper, PhD",
     "profilePictureUrl": "images/pictures/avatar.png",
 
     "locales": {
         "en": {
-            "credits": "Designed by <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "UX Designer"
+            "credits": "",
+            "role": "Lead Software Engineer"
         },
 
         "es": {
-            "credits": "Hecho por <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer de UX"
-        },
-
-        "fr": {
-            "credits": "Conçu par <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer UX"
-        },
-
-        "zh": {
-            "credits": "设计：<strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "用户体验设计师"
+            "credits": "",
+            "role": "Ingeniero de Software Principal"
         }
     },
 
     "contact": {
         "address": {
             "id": "address",
-            "value": "123 Main Street, Cupertino, CA 01234",
-            "valueShort": "Cupertino, CA 01234",
+            "value": "110 Mount Shasta Ln, Alpharetta, GA 30022",
+            "valueShort": "Alpharetta, GA 30022",
             "faIcon": "fa-solid fa-city",
             "href": null
         },
 
         "email": {
             "id": "email",
-            "value": "jonas.einstein@genius.com",
-            "valueShort": "jonas.einstein@genius.com",
+            "value": "james@coopstools.com",
+            "valueShort": "james@coopstools.com",
             "faIcon": "fa-solid fa-envelope",
-            "href": "mailto:jonas.einstein@genius.com"
+            "href": "mailto:james@coopstools.com"
         },
 
-        "facebook": {
-            "id": "facebook",
-            "value": "Jonas Einstein",
-            "valueShort": "J. Einstein",
-            "faIcon": "fa-brands fa-facebook",
-            "href": "https://facebook.com"
+        "bluesky": {
+            "id": "bluesky",
+            "value": "James R Cooper",
+            "valueShort": "JR Cooper",
+            "faIcon": "fa-brands fa-bluesky",
+            "href": "https://bsky.app/profile/jamesrcooper.bsky.social"
         },
 
         "github": {
             "id": "github",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
+            "value": "@coopstools",
+            "valueShort": "@coopstools",
             "faIcon": "fa-brands fa-github",
-            "href": "https://github.com"
-        },
-
-        "instagram": {
-            "id": "instagram",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
-            "faIcon": "fa-brands fa-instagram",
-            "href": "https://instagram.com"
+            "href": "https://github.com/coopstools"
         },
 
         "linkedin": {
             "id": "linkedin",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
+            "value": "@jrcooperphd",
+            "valueShort": "@jrcooperphd",
             "faIcon": "fa-brands fa-linkedin",
-            "href": "https://linkedin.com"
+            "href": "www.linkedin.com/in/jrcooperphd"
         },
 
         "phone": {
             "id": "phone",
-            "value": "+1 (123) 456-7890",
-            "valueShort": "(123) 456-7890",
+            "value": "+1 (813) 610-327",
+            "valueShort": "+1 (813) 610-327",
             "faIcon": "fa-solid fa-phone",
-            "href": "tel:1234567890"
+            "href": "tel:8136103327"
         }
     }
 }

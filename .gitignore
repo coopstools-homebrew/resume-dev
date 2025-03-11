@@ -1,2 +1,5 @@
 .idea/
 .codegenie/
+
+dist/
+node_modules/

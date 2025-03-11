@@ -19,3 +19,5 @@ This is based on a template and still has a lot of old data in it. Known issues 
 - [ ] Update Experience page
 - [ ] Find Icons for School
 - [ ] Update Education page
+- [x] Remove language selection
+- [ ] Update footer to give credit to Ryan for the template: src/vue/navigation/default/NavSidebar.vue

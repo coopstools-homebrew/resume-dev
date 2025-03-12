@@ -14,8 +14,8 @@
             "locales": {
                 "en": {
                     "title": "Software Tech Lead - Social Media Marketing Team",
-                    "description": "Led a team, focused on rapid concept-to-market, in design, build and deployment of several services<br>Built APIs for integrating with third party marketing services, such as Snapchat, Instagram, and Pinterest<br>Developed microservice (Spring/Docker), and Serverlss/FaaS (Nodejs/Lambda) applications, pre-kubernetes",
-                    "tags": ["uServices", "API Design", "Java", "Docker"]
+                    "description": "- Led a team, focused on rapid concept-to-market, in design, build and deployment of several services<br>- Built APIs for integrating with third party marketing services, such as Snapchat, Instagram, and Pinterest<br>- Developed microservice (Spring/Docker), and Serverlss/FaaS (Nodejs/Lambda) applications, pre-kubernetes",
+                    "tags": ["µServices", "API Design", "Java", "Docker"]
                 }
             }
         },
@@ -27,7 +27,7 @@
             "locales": {
                 "en": {
                     "title": "Senior Software Engineer - Core API and DevOps Teams",
-                    "description": "Worked with a distributed team split around the world<br>Designed and Implemented an auto scaling CI pipeline with Jenkins and Kubernetes<br>Designed and built asynchronous streaming service for scanning, encrypting, and managing large files",
+                    "description": "- Worked with a distributed team split around the world<br>- Designed and Implemented an auto scaling CI pipeline with Jenkins and Kubernetes<br>- Designed and built asynchronous streaming service for scanning, encrypting, and managing large files",
                     "tags": ["Jenkins", "Kubernetes", "Java", "Kafka", "Feature Flagging"]
                 }
             }

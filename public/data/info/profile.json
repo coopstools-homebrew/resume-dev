@@ -17,7 +17,7 @@
     "contact": {
         "address": {
             "id": "address",
-            "value": "110 Mount Shasta Ln, Alpharetta, GA 30022",
+            "value": "Alpharetta, GA 30022",
             "valueShort": "Alpharetta, GA 30022",
             "faIcon": "fa-solid fa-city",
             "href": null

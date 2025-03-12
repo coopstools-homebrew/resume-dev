@@ -22,8 +22,7 @@
 
         "contactListItems": [
             "@link{profile.contact.address}",
-            "@link{profile.contact.email}",
-            "@link{profile.contact.phone}"
+            "@link{profile.contact.email}"
         ]
     }
 }

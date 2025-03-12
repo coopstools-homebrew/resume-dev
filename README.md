@@ -17,8 +17,8 @@ This is based on a template and still has a lot of old data in it. Known issues 
 - [x] Update Social Links
 - [x] Find Icons for past jobs
 - [x] Update Experience page
-- [ ] Find Icons for School
-- [ ] Update Education page
+- [x] Find Icons for School
+- [x] Update Education page
 - [x] Remove language selection
 - [ ] Update footer to give credit to Ryan for the template: src/vue/navigation/default/NavSidebar.vue
 - [x] Add ability to remove unused sections of the resume (ie portfolio)

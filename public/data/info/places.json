@@ -23,6 +23,22 @@
         }
     },
 
+    "usf": {
+        "logoUrl": "images/places/logo-usf.svg",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "University of South Florida"}
+        }
+    },
+
+    "gatech": {
+        "logoUrl": "images/places/logo-gatech.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Georgia Institute of Technology"}
+        }
+    },
+
     "apple": {
         "logoUrl": "images/places/logo-onetrust.svg",
         "faIcon": "fa fa-house-laptop",

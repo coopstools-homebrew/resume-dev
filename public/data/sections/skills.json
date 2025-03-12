@@ -1,4 +1,5 @@
 {
+    "disabled": true,
     "locales": {
         "en": {
             "title": "<span class='text-primary'>Skill</span> Set",

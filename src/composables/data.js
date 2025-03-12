@@ -88,7 +88,8 @@ export function useData() {
      */
     const getSections = () => {
         _updateLocalization()
-        return _localizedData.entries.sections
+        const sects = _localizedData.entries.sections;
+        return sects.filter(s=> s.hasOwnProperty("content") && (!s["content"].hasOwnProperty("disabled") || !s["content"]["disabled"]))
     }
 
     /**

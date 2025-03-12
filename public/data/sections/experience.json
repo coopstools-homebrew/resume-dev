@@ -3,103 +3,45 @@
         "en": {
             "title": "<span class='text-primary'>Professional</span> Experience",
             "description": "A look into my work experience and career journey."
-        },
-
-        "es": {
-            "title": "<span class='text-primary'>Experiencia</span> Profesional",
-            "description": "Un vistazo a mi experiencia laboral y trayectoria profesional."
         }
     },
 
     "items": [
         {
             "id": "experience_item_1",
-            "place": "@link{places.uxStudio}",
+            "place": "@link{places.amobee}",
             "period": ["2015/01", "2017/12"],
             "locales": {
                 "en": {
-                    "title": "Lead Software Engineer",
-                    "description": "Contributed to designing intuitive and user-friendly web application interfaces, creating engaging and seamless user experiences. Collaborated closely with cross-functional teams and stakeholders to ensure designs aligned with business goals and user needs.",
-                    "tags": ["Figma", "Wireframing", "Prototyping", "Responsive Design", "User Research"]
-                },
-                "es": {
-                    "title": "Diseñador de UX",
-                    "description": "Contribuí al diseño de interfaces de aplicaciones web intuitivas y amigables para el usuario, creando experiencias de usuario atractivas y fluidas. Colaboré estrechamente con equipos multifuncionales e interesados para asegurarme de que los diseños se alinearan con los objetivos comerciales y las necesidades de los usuarios.",
-                    "tags": ["Figma", "Prototipado", "Diseño Responsivo", "Investigación de Usuarios", "Wireframing"]
+                    "title": "Software Tech Lead - Social Media Marketing Team",
+                    "description": "Led a team, focused on rapid concept-to-market, in design, build and deployment of several services<br>Built APIs for integrating with third party marketing services, such as Snapchat, Instagram, and Pinterest<br>Developed microservice (Spring/Docker), and Serverlss/FaaS (Nodejs/Lambda) applications, pre-kubernetes",
+                    "tags": ["uServices", "API Design", "Java", "Docker"]
                 }
             }
         },
 
         {
             "id": "experience_item_2",
-            "place": "@link{places.adobe}",
-            "period": ["2018/01", "2020/08"],
+            "place": "@link{places.onetrust}",
+            "period": ["2020/09", "2022/09"],
             "locales": {
                 "en": {
-                    "title": "Senior UI/UX Designer",
-                    "description": "Led design projects, conducted comprehensive user research, and utilized data-driven insights to enhance user experiences. Managed design teams, fostering creativity and innovation while implementing design best practices to deliver successful outcomes for various digital products.",
-                    "tags": ["Figma", "Adobe XD", "Sketch", "Data-Driven Design"]
-                },
-                "es": {
-                    "title": "Designer Senior UI/UX",
-                    "description": "Lideré proyectos de diseño, realicé investigaciones exhaustivas sobre usuarios y utilicé información basada en datos para mejorar las experiencias de usuario. Gestioné equipos de diseño, fomentando la creatividad y la innovación al tiempo que implementaba las mejores prácticas de diseño para obtener resultados exitosos en diversos productos digitales.",
-                    "tags": ["Figma", "Adobe XD", "Sketch", "Diseño Basado en Datos"]
-                },
-                "fr": {
-                    "title": "Designer UI/UX Senior",
-                    "description": "A piloté les initiatives UX en supervisant une équipe de concepteurs, en élaborant des stratégies de conception et en dirigeant des collaborations interfonctionnelles avec les responsables de produits, les ingénieurs et les cadres. Axé sur la création de designs centrés sur l'utilisateur alignés sur les objectifs commerciaux et aboutissant à une satisfaction accrue des utilisateurs.",
-                    "tags": ["Figma", "Adobe XD", "Sketch", "Conception Basée sur les Données"]
-                },
-                "zh": {
-                    "title": "高级UI/UX设计师",
-                    "description": "领导设计项目，进行全面的用户研究，利用数据驱动的见解提升用户体验。管理设计团队，培养创意和创新，同时实施设计最佳实践，为各种数字产品交付成功的结果。",
-                    "tags": ["Figma", "Adobe XD", "Sketch", "数据驱动设计"]
+                    "title": "Senior Software Engineer - Core API and DevOps Teams",
+                    "description": "Worked with a distributed team split around the world<br>Designed and Implemented an auto scaling CI pipeline with Jenkins and Kubernetes<br>Designed and built asynchronous streaming service for scanning, encrypting, and managing large files",
+                    "tags": ["Jenkins", "Kubernetes", "Java", "Kafka", "Feature Flagging"]
                 }
             }
         },
 
         {
             "id": "experience_item_3",
-            "place": "@link{places.apple}",
-            "period": ["2020/09", "2022/09"],
-            "locales": {
-                "en": {
-                    "title": "Lead UX Designer",
-                    "description": "Drove UX initiatives by overseeing a team of designers, crafting design strategies, and spearheading cross-functional collaborations with product managers, engineers, and executives. Focused on creating user-centric designs that aligned with business objectives and resulted in enhanced user satisfaction.",
-                    "tags": ["Sketch", "Adobe XD", "InVision", "Design Strategy", "Cross-Functional Collaboration"]
-                },
-                "es": {
-                    "title": "Designer UX Principal",
-                    "description": "Impulsé iniciativas de UX supervisando un equipo de diseñadores, elaborando estrategias de diseño y liderando colaboraciones multifuncionales con gerentes de producto, ingenieros y ejecutivos. Centrado en crear diseños centrados en el usuario que se alinearan con los objetivos comerciales y que dieron como resultado una mayor satisfacción del usuario.",
-                    "tags": ["Sketch", "Adobe XD", "InVision", "Estrategia de Diseño", "Colaboración Multifuncional"]
-                },
-                "fr": {
-                    "title": "Designer UX Principal",
-                    "description": "A piloté les initiatives UX en supervisant une équipe de concepteurs, en élaborant des stratégies de conception et en dirigeant des collaborations interfonctionnelles avec les responsables de produits, les ingénieurs et les cadres. Axé sur la création de designs centrés sur l'utilisateur alignés sur les objectifs commerciaux et aboutissant à une satisfaction accrue des utilisateurs.",
-                    "tags": ["Sketch", "Adobe XD", "InVision", "Stratégie de Conception", "Collaboration Interfonctionnelle"]
-                },
-                "zh": {
-                    "title": "首席用户体验设计师",
-                    "description": "通过监督设计团队、制定设计战略，并与产品经理、工程师和高管共同推动跨职能合作，推动了用户体验的创新。专注于创建符合业务目标的以用户为中心的设计，从而实现了增强的用户满意度。",
-                    "tags": ["Sketch", "Adobe XD", "InVision", "设计战略", "跨职能合作"]
-                }
-            }
-        },
-
-        {
-            "id": "experience_item_4",
             "place": "@link{places.salesforce}",
             "period": ["2020/01", "now"],
             "locales": {
                 "en": {
                     "title": "Lead Software Engineer - Developer Experience Team",
                     "description": "- Built a team from scratch, working to encourage and nurture the careers of each team member<br>- Architected and built an event driven data bus for syncing and triggering distributed systems<br>- Worked on an AI approach for IT support, including data ingestion and integration with slack<br>- Built a number of automation tools which are currently used by thousands of internal",
-                    "tags": ["Developer Tooling", "Event Driven Architecture", "AI Agents"]
-                },
-                "es": {
-                    "title": "Profesor de Tiempo Completo en UX Design",
-                    "description": "Utilicé mi experiencia en diseño UX para educar e inspirar a los estudiantes en el arte de los principios de diseño centrado en el usuario. Realicé estudios de usuarios, analicé datos y orienté a los estudiantes en la aplicación de conocimientos teóricos a proyectos prácticos, empoderando a la próxima generación de diseñadores UX.",
-                    "tags": ["Adobe XD", "Sketch", "Axure", "Mentoría Educativa"]
+                    "tags": ["Developer Tooling", "Golang", "Event Driven Architecture", "AI Agents", "GitOps"]
                 }
             }
         }

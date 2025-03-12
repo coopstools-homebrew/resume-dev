@@ -1,4 +1,5 @@
 {
+    "disabled": true,
     "locales": {
         "en": {
             "title": "Career <span class='text-primary'>Achievements</span>",
@@ -99,34 +100,6 @@
                     "zh": {
                         "title": "第二名 - 校友UX黑客马拉松",
                         "description": "在哈佛校友UX黑客马拉松中获得第二名；展示了创造性问题解决能力。"
-                    }
-                }
-            },
-
-            {
-                "id": "adobe_jam",
-                "place": "@link{places.adobe}",
-                "date": "2020/11",
-                "href": null,
-                "locales": {
-                    "en": {
-                        "title": "1st Place – Adobe Creative Jam",
-                        "description": "Achieved 1st place in Adobe Creative Jam; showcased design excellence and collaboration."
-                    },
-
-                    "es": {
-                        "title": "1er Lugar - Adobe Creative Jam",
-                        "description": "Obtuvo el 1er lugar en Adobe Creative Jam; mostró excelencia en diseño y colaboración."
-                    },
-
-                    "fr": {
-                        "title": "1ère Place - Adobe Creative Jam",
-                        "description": "Obtenu la 1ère place à Adobe Creative Jam; mis en avant l'excellence en design et la collaboration."
-                    },
-
-                    "zh": {
-                        "title": "第一名 - Adobe创意盛宴",
-                        "description": "在Adobe创意盛宴中获得第一名；展示了卓越的设计和合作。"
                     }
                 }
             },

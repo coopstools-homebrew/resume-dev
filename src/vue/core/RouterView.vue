@@ -1,5 +1,5 @@
 <template>
-    <component v-for="section in data.getSections()"
+    <component v-for="section in data.getFilteredSections()"
                :is="_getSectionComponentByName(section['component'])"
                :section-data="section"/>
 </template>

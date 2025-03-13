@@ -9,7 +9,7 @@
             <!-- Nav Link List -->
             <ul class="nav-links">
                 <!-- Nav Link -->
-                <li v-for="section in data.getSections()" :class="_getNavItemClassList(section)">
+                <li v-for="section in data.getFilteredSections()" :class="_getNavItemClassList(section)">
                     <button class="nav-link" @click="_onLinkClicked(section)">
                         <i :class="section['faIcon']"/>
                         <span>{{ data.getString(section['id']) }}</span>

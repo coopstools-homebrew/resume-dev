@@ -88,6 +88,14 @@ export function useData() {
      */
     const getSections = () => {
         _updateLocalization()
+        return _localizedData.entries.sections;
+    }
+
+    /**
+     * @return {Array}
+     */
+    const getFilteredSections = () => {
+        _updateLocalization()
         const sects = _localizedData.entries.sections;
         return sects.filter(s=> s.hasOwnProperty("content") && (!s["content"].hasOwnProperty("disabled") || !s["content"]["disabled"]))
     }
@@ -340,6 +348,7 @@ export function useData() {
         fetchEssentials,
         fetchAll,
         getLoadProgress,
+        getFilteredSections,
         getSections,
         getCategories,
         getCategorySections,

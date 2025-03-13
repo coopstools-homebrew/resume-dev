@@ -4,13 +4,8 @@
 
     "locales": {
         "en": {
-            "credits": "",
-            "role": "Lead Software Engineer"
-        },
-
-        "es": {
-            "credits": "",
-            "role": "Ingeniero de Software Principal"
+            "credits": "Site hosted in GitHub Pages<br>Template based on <a href=\"https://github.com/ryanbalieiro/vue-resume-template\">Ryan Balieiro</a>",
+            "role": "Lead Software Engineer & Expert StackOverflow Googler"
         }
     },
 

@@ -186,7 +186,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Team Leader", "description": "Able to work with diverse group, deal with conflicts, and encourage collaboration"}
+                    "en": {"title": "Team Leader", "description": "Able to work with diverse groups, deal with conflicts, and encourage collaboration"}
                 }
             },
             {
@@ -194,7 +194,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Growth Oriented", "description": "Loves working with piers of all levels, to both grow and help others grow"}
+                    "en": {"title": "Growth Oriented", "description": "Loves working with peers of all levels, to both grow and help others grow"}
                 }
             },
             {
@@ -202,7 +202,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Testing Oriented", "description": "Though not pedantic, tried to create tests to recreate problems before coding to fix them"}
+                    "en": {"title": "Testing Oriented", "description": "Though not pedantic, tries to create tests to recreate problems before coding to fix them"}
                 }
             },
             {
@@ -210,7 +210,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Interface Oriented", "description": "Starts design work from a UX perspective and works towards implementation"}
+                    "en": {"title": "Interface Oriented", "description": "Starts design work from a UX/API perspective and then works toward implementation"}
                 }
             },
             {

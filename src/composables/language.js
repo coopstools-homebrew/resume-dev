@@ -46,7 +46,8 @@ export function useLanguage() {
      * @return {boolean}
      */
     const supportsMultipleLanguages = () => {
-        return _languageData.supportedLanguages.length > 1
+        return false
+        // return _languageData.supportedLanguages.length > 1
     }
 
     /**

@@ -14,6 +14,7 @@ This is based on a template and still has a lot of old data in it. Known issues 
 - [x] Update short bio
 - [x] Update short bio
 - [x] Remove unused languages
+- [x] Remove language selection on mobile
 - [x] Update Social Links
 - [x] Find Icons for past jobs
 - [x] Update Experience page

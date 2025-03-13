@@ -1,5 +1,5 @@
 {
-    "disabled": true,
+    "disabled": false,
     "locales": {
         "en": {
             "title": "<span class='text-primary'>Skill</span> Set",
@@ -8,16 +8,6 @@
     },
 
     "subcategories": [
-        {
-            "id": "abilities",
-            "type": "grid",
-            "progress": null,
-            "faIcon": "fa-solid fa-square",
-            "locales": {
-                "en": {"title": null}
-            }
-        },
-
         {
             "id": "programming",
             "type": "grid",
@@ -29,208 +19,174 @@
         },
 
         {
-            "id": "languages",
-            "type": "list",
-            "progress": {"0": "beginner", "20": "rookie", "40": "intermediate", "60": "advanced", "80": "fluent", "100": "native"},
-            "faIcon": "fa fa-language",
+            "id": "tools",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa-solid fa-wrench",
             "locales": {
-                "en": {"title": "Languages"},
-                "es": {"title": "Idiomas"},
-                "fr": {"title": "Langues"},
-                "zh": {"title": "语言"}
+                "en": {"title": "Tools"}
             }
         },
 
         {
-            "id": "extra",
+            "id": "qualities",
             "type": "grid",
             "progress": null,
             "faIcon": "fa fa-marker",
             "locales": {
-                "en": {"title": "Bonus Skills"},
-                "es": {"title": "Habilidades Adicionales"},
-                "fr": {"title": "Plus Habiletés"},
-                "zh": {"title": "附加技能"}
+                "en": {"title": "Qualities"}
             }
         }
     ],
 
     "items": {
-        "abilities": [
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-mobile-alt",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Responsive Layouts",
-                        "description": "Proficient in crafting adaptable layouts for diverse devices, ensuring optimal user experience."
-                    }
-                }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-paint-roller",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Design Principles",
-                        "description": "Masterful at creating captivating designs, blending color theory, typography, layout, and balance for effective messaging."
-                    }
-                }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-vector-square",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Wireframing",
-                        "description": "Skilled in creating detailed wireframes to visualize and plan user interfaces, effectively laying the foundation for intuitive design."
-                    }
-                }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-check-double",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Usability Testing",
-                        "description": "Enhancing user experiences through comprehensive usability testing."
-                    }
-                }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-expand-arrows-alt",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Interaction Design",
-                        "description": "Proficient in creating intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability."
-                    }
-                }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fas fa-laptop-code",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "Prototyping",
-                        "description": "Skilled in translating concepts into interactive prototypes for testing and refinement."
-                    }
-                }
-            }
-        ],
-
         "programming": [
             {
                 "imageIconUrl": null,
-                "faIcon": "fab fa-html5",
+                "faIcon": "fa-brands fa-golang",
                 "value": 95,
                 "locales": {
-                    "en": {"title": "HTML 5", "description": "Experience Time: 5 years"}
+                    "en": {"title": "Golang", "description": "Experience Time: 8 years"}
                 }
             },
 
             {
                 "imageIconUrl": null,
-                "faIcon": "fab fa-css3-alt",
-                "value": 90,
+                "faIcon": "fa-brands fa-python",
+                "value": 95,
                 "locales": {
-                    "en": {"title": "CSS 3", "description": "Experience Time: 3 years"}
+                    "en": {"title": "Python", "description": "Experience Time: 20 years"}
                 }
             },
 
             {
                 "imageIconUrl": null,
-                "faIcon": "fab fa-sass",
-                "value": 65,
+                "faIcon": "fa-brands fa-java",
+                "value": 80,
                 "locales": {
-                    "en": {"title": "Sass/Less", "description": "Experience Time: 2 years"}
+                    "en": {"title": "Java", "description": "Experience Time: 4 years"}
                 }
             },
 
             {
                 "imageIconUrl": null,
-                "faIcon": "fab fa-js-square",
+                "faIcon": "fa-brands fa-linux",
                 "value": 85,
                 "locales": {
-                    "en": {"title": "JavaScript", "description": "Experience Time: 3 years"}
+                    "en": {"title": "Bash", "description": "Experience Time: 12 years"}
                 }
             },
 
             {
                 "imageIconUrl": null,
-                "faIcon": "fab fa-vuejs",
+                "faIcon": "fa-brands fa-js",
+                "value": 60,
+                "locales": {
+                    "en": {"title": "JavaScript", "description": "Experience Time: 11 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-gear",
+                "value": 60,
+                "locales": {
+                    "en": {"title": "Assembly (ARM and 8502)", "description": "Experience Time: Sporadic 5 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-plus-minus",
                 "value": 100,
                 "locales": {
-                    "en": {"title": "Vue 3", "description": "Experience Time: 2 years"}
-                }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fab fa-react",
-                "value": 75,
-                "locales": {
-                    "en": {"title": "React", "description": "Nanodegree in React development (Udacity)<br>Experience time: 1 year"}
+                    "en": {"title": "BrainF**k", "description": "Experience time: 3 years"}
                 }
             }
         ],
 
-        "languages": [
+
+        "tools": [
             {
-                "imageIconUrl": "images/flags/en.png",
-                "faIcon": null,
-                "value": 100,
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-cloud",
+                "value": null,
                 "locales": {
-                    "en": {"title": "English", "description": "Native speaker with excellent communication and writing skills."}
+                    "en": {
+                        "title": "Cloud Platforms",
+                        "description": "AWS/Azure/Digital Ocean/Heroku: lambdas, buckets, api gateway, etc"
+                    }
                 }
             },
 
             {
-                "imageIconUrl": "images/flags/es.png",
-                "faIcon": null,
-                "value": 90,
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-docker",
+                "value": null,
                 "locales": {
-                    "en": {"title": "Spanish", "description": "Fluent in both spoken and written Spanish; confident in professional communication."}
+                    "en": {
+                        "title": "Kubernetes",
+                        "description": "Testing (minikube/Docker Desktop), Baremetal (k4s), and Cloud"
+                    }
                 }
             },
 
             {
-                "imageIconUrl": "images/flags/vn.png",
-                "faIcon": null,
-                "value": 40,
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-slack",
+                "value": null,
                 "locales": {
-                    "en": {"title": "Vietnamese", "description": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text."}
+                    "en": {
+                        "title": "Slack API",
+                        "description": "Bots and Forms/Modules for developer tooling"
+                    }
                 }
             },
 
             {
-                "imageIconUrl": "images/flags/pt.png",
-                "faIcon": null,
-                "value": 10,
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-database",
+                "value": null,
                 "locales": {
-                    "en": {"title": "Brazilian Portuguese", "description": "Basic understanding of Brazilian Portuguese; learning and improving."}
+                    "en": {
+                        "title": "Redis",
+                        "description": "Focused on streams for event driven architectures"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-database",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "SQL and NoSql",
+                        "description": "Postgres (local/AWS Aurora), MySQL, DynamoDB, MangoDB"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-github",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "GitHub",
+                        "description": "Repo, Workflows, Pages, Container Registry, Auth, Secrets, etc"
+                    }
                 }
             }
         ],
 
-        "extra": [
+        "qualities": [
             {
                 "imageIconUrl": null,
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "User Interface (UI) Design", "description": "Able to design intuitive and visually appealing user interfaces for seamless user interactions."}
+                    "en": {"title": "Team Leader", "description": "Able to work with diverse group, deal with conflicts, and encourage collaboration"}
                 }
             },
             {
@@ -238,7 +194,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Front-End Development", "description": "Able to code in VueJS, React JS, Swift, AngularJS and TypeScript."}
+                    "en": {"title": "Growth Oriented", "description": "Loves working with piers of all levels, to both grow and help others grow"}
                 }
             },
             {
@@ -246,7 +202,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Information Visualization", "description": "Able to transform complex data into clear visuals."}
+                    "en": {"title": "Testing Oriented", "description": "Though not pedantic, tried to create tests to recreate problems before coding to fix them"}
                 }
             },
             {
@@ -254,7 +210,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Accessibility and Inclusive Design", "description": "Able to create digital experiences that are accessible to all."}
+                    "en": {"title": "Interface Oriented", "description": "Starts design work from a UX perspective and works towards implementation"}
                 }
             },
             {
@@ -262,18 +218,9 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "User-Centric Data Analysis", "description": "Proficient in analyzing data with a focus on the needs and preferences of users, enabling data-driven decisions that align with user expectations."}
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": null,
-                "value": null,
-                "locales": {
-                    "en": {"title": "Mobile App User Experience", "description": "Skilled in crafting user-centered experiences within mobile applications, ensuring smooth and intuitive interactions."}
+                    "en": {"title": "Curious", "description": "Produces best work when investigating a new problem or challenge; is not afraid to move out of comfort zone."}
                 }
             }
         ]
-
     }
 }

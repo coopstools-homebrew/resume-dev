@@ -8,7 +8,7 @@
     },
 
     "salesforce":{
-        "logoUrl": "images/places/logo-salesforce.svg",
+        "logoUrl": "images/places/logo-salesforce.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
             "en": {"name": "Salesforce Inc"}
@@ -24,7 +24,7 @@
     },
 
     "usf": {
-        "logoUrl": "images/places/logo-usf.svg",
+        "logoUrl": "images/places/logo-usf.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
             "en": {"name": "University of South Florida"}

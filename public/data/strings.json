@@ -39,8 +39,8 @@
             "skills": "Skills",
             "subject": "Subject",
             "tags": "Tags",
-            "whereToFind": "Where to Find",
-            "whereToFindDescription": "${project} is available on the following platforms and services:"
+            "whereToFind": "Links",
+            "whereToFindDescription": "More info about ${project} can be found here:"
         },
 
         "es": {

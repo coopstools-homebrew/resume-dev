@@ -56,19 +56,19 @@
         },
 
         {
-            "id": "interests",
-            "categoryId": "more",
-            "component": "InfoSection",
-            "jsonPath": "data/sections/interests.json",
-            "faIcon": "fa-solid fa-heart"
-        },
-
-        {
             "id": "portfolio",
             "categoryId": "showcase",
             "component": "GallerySection",
             "jsonPath": "data/sections/portfolio.json",
             "faIcon": "fa-solid fa-folder-open"
+        },
+
+        {
+            "id": "interests",
+            "categoryId": "more",
+            "component": "InfoSection",
+            "jsonPath": "data/sections/interests.json",
+            "faIcon": "fa-solid fa-heart"
         },
 
         {

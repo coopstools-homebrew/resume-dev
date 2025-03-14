@@ -4,21 +4,6 @@
         "en": {
             "title": "Career <span class='text-primary'>Achievements</span>",
             "description": "My journey as a UX designer has been marked by unwavering dedication to learning and skill enhancement, along with enthusiastic participation in design events. As a result, I have collected a list of notable awards and certifications:"
-        },
-
-        "es": {
-            "title": "Logros <span class='text-primary'>Profesionales</span>",
-            "description": "Mi trayectoria como diseñador de UX ha estado marcada por una dedicación inquebrantable al aprendizaje y mejora de habilidades, junto con una participación entusiasta en eventos de diseño. Como resultado, he recopilado una lista de premios y certificaciones notables:"
-        },
-
-        "fr": {
-            "title": "Réalisations <span class='text-primary'>Professionnelles</span>",
-            "description": "Mon parcours en tant que concepteur UX a été marqué par une dédication inébranlable à l'apprentissage et à l'amélioration des compétences, ainsi que par une participation enthousiaste à des événements de conception. En conséquence, j'ai dressé une liste de récompenses et de certifications remarquables:"
-        },
-
-        "zh": {
-            "title": "职业<span class='text-primary'>成就</span>",
-            "description": "作为一名UX设计师，我的旅程充满了对学习和技能提升的坚定执着，以及对设计活动的热情参与。因此，我汇总了一份显著奖项和认证的列表："
         }
     },
 
@@ -27,10 +12,7 @@
             "id": "awards",
             "faIcon": "fa-solid fa-trophy",
             "locales": {
-                "en": {"title": "Awards", "buttonLabel": "More Info"},
-                "es": {"title": "Premios", "buttonLabel": "Más Información"},
-                "fr": {"title": "Prix", "buttonLabel": "Plus d'Infos"},
-                "zh": {"title": "奖项", "buttonLabel": "了解更多"}
+                "en": {"title": "Awards", "buttonLabel": "More Info"}
             }
         },
 

@@ -10,7 +10,7 @@
         {
             "id": "experience_item_1",
             "place": "@link{places.amobee}",
-            "period": ["2015/01", "2017/12"],
+            "period": ["2015/06", "2018/09"],
             "locales": {
                 "en": {
                     "title": "Software Tech Lead - Social Media Marketing Team",
@@ -23,7 +23,7 @@
         {
             "id": "experience_item_2",
             "place": "@link{places.onetrust}",
-            "period": ["2020/09", "2022/09"],
+            "period": ["2018/09", "2019/12"],
             "locales": {
                 "en": {
                     "title": "Senior Software Engineer - Core API and DevOps Teams",

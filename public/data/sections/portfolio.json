@@ -45,7 +45,8 @@
                 "title": "Ballet Skirts",
                 "logoUrl": "images/portfolio/skirt_backstage.jpg",
                 "links": [
-                    {"faIcon": "fa-brands fa-square-bluesky", "href": "https://bsky.app/profile/jamesrcooper.bsky.social/post/3lk23gskoas2m", "id": "Bluesky Post"}
+                    {"faIcon": "fa-brands fa-square-bluesky", "href": "https://bsky.app/profile/jamesrcooper.bsky.social/post/3lk23gskoas2m", "id": "Bluesky Post"},
+                    {"faIcon": "fa-solid fa-images", "href": "https://imgur.com/gallery/story-book-2023-3Q8XmE5", "id": "More Pictures"}
                 ],
                 "locales": {
                     "en": {

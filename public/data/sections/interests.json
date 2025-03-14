@@ -1,0 +1,126 @@
+{
+    "disabled": false,
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Volunteer</span> & Interests",
+            "description": "This is pretty much how I spend my free time:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "volunteer",
+            "type": "list",
+            "progress": null,
+            "faIcon": "fa fa-book-open-reader",
+            "locales": {
+                "en": {"title": "Volunteer"}
+            }
+        },
+        {
+            "id": "interests",
+            "type": "pie",
+            "progress": "number",
+            "faIcon": "fa-solid fa-clock",
+            "locales": {
+                "en": {"title": "Interests"}
+            }
+        }
+    ],
+
+    "items": {
+        "interests": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-people-group",
+                "value": 20,
+                "locales": {
+                    "en": {"title": "Family & Friends", "description": "Time spent with cherished loved ones."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-shoe-prints",
+                "value": 35,
+                "locales": {
+                    "en": {"title": "Dancing", "description": "Dancing Ballet, Contemporary, and Jazz"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-compass-drafting",
+                "value": 15,
+                "locales": {
+                    "en": {"title": "Crafts and Coding", "description": "Building Things, both Digital and Physical"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-guitar",
+                "value": 10,
+                "locales": {
+                    "en": {"title": "Music", "description": "Playing various instruments, including Viola, Ukulele, accordion, etc"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-tent",
+                "value": 5,
+                "locales": {
+                    "en": {"title": "Backpacking", "description": "Heading out on the trails for a few nights"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-book",
+                "value": 15,
+                "locales": {
+                    "en": {"title": "Roleplaying", "description": "GMing Stories with various groups"}
+                }
+            }
+        ],
+
+        "volunteer": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-shoe-prints",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Metro Atlanta Dance Company Board of Directors",
+                        "description": "Member of the Board for a 501(c)3 that serves the community with a third space for youth and adults, with a focus on ballet, hip hop, musical theater, and more"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-people-group",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Big Brother Big Sister of Metro Atlanta",
+                        "description": "Worked with my little (who is now much larger than me) since 2011, hanging out and exploring"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-people-group",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Foster Parent",
+                        "description": "Caring for children, ages 7+, who need a temporary place while they find their forever home"
+                    }
+                }
+            }
+        ]
+
+    }
+}

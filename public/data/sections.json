@@ -32,6 +32,14 @@
         },
 
         {
+            "id": "experience",
+            "categoryId": "background",
+            "component": "TimelineSection",
+            "jsonPath": "data/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase"
+        },
+
+        {
             "id": "education",
             "categoryId": "background",
             "component": "TimelineSection",
@@ -48,11 +56,11 @@
         },
 
         {
-            "id": "experience",
-            "categoryId": "background",
-            "component": "TimelineSection",
-            "jsonPath": "data/sections/experience.json",
-            "faIcon": "fa-solid fa-briefcase"
+            "id": "interests",
+            "categoryId": "more",
+            "component": "InfoSection",
+            "jsonPath": "data/sections/interests.json",
+            "faIcon": "fa-solid fa-heart"
         },
 
         {
@@ -69,14 +77,6 @@
             "component": "ThreadsSection",
             "jsonPath": "data/sections/achievements.json",
             "faIcon": "fa-solid fa-award"
-        },
-
-        {
-            "id": "hobbies",
-            "categoryId": "more",
-            "component": "InfoSection",
-            "jsonPath": "data/sections/hobbies.json",
-            "faIcon": "fa-solid fa-heart"
         },
 
         {

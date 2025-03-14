@@ -3,13 +3,7 @@
         "en": {
             "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
             "welcomeShort": "Welcome!",
-            "bio": "I'm a Lead Software Engineer who gets excited about tackling big challenges and building things that make a real difference. I truly believe that the best software comes from teamwork, where diverse ideas come together to create awesome products. I'm all in on building a team where we push each other to do great work and deliver fantastic results."
-        },
-
-        "es": {
-            "welcome": "¡Bienvenido(a) a mi <span class='text-primary'>CV!</span>",
-            "welcomeShort": "¡Saludos!",
-            "bio": "Soy un ingeniero de software líder que se entusiasma por enfrentar grandes desafíos y crear cosas que realmente marquen la diferencia. Creo firmemente que el mejor software surge del trabajo en equipo, donde se unen ideas diversas para crear productos increíbles. Mi objetivo es formar un equipo en el que nos impulsemos mutuamente para hacer un gran trabajo y ofrecer resultados fantásticos."
+            "bio": "I'm a Lead Software Engineer, with 20+ years coding experience, who gets excited about tackling big challenges and building things that make a real difference. I truly believe that the best software comes from teamwork, where diverse ideas come together to create awesome products. I'm all in on building a team where we push each other to do great work and deliver fantastic results."
         }
     },
 

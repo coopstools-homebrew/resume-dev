@@ -67,7 +67,7 @@
                 ],
                 "locales": {
                     "en": {
-                        "description": "Wrote a Hellord! program (Hello, world where the bytes get mixed up) for an NES. This was part of a challenge for blog/wiki. Sadly, it was only run on an emulator as I lacked the hardware. In the end, you had a program where you could use a control to move the words around the screen.<br><br>For me, this was about re-learning assembly on a super simple architecture, the Nintendo's 8502.",
+                        "description": "Wrote a Hellord! program ('Hello, World!' where the bytes get mixed up) for an NES. This was part of a challenge posted by Nakazoto's blog/wiki. Sadly, it was only run on an emulator as I lacked the hardware. In the end, the program allos a user to move the words around the screen.<br><br>For me, this was about re-learning assembly on a super simple architecture, the Nintendo's 8502. It was also a fun challenge as I had to do the graphic design using the really nifty sprite render that the NES engineers created for the limited memory available in the NES.",
                         "tags": ["assembly", "8502"]
                     }
                 }
@@ -97,7 +97,7 @@
                 ],
                 "locales": {
                     "en": {
-                        "description": "The linked code is a series of services, which work with GitHub workflows and secret management, to deploy services to a k8s instance. It also includes some of the services that were deployed, such as a tracker to see the current status of the cluster.<br><br>This code was used to deploy bother to a Digital Ocean instance and a k4s instance running on baremetal. The baremetal included a raspberry pi as the core node, and a tower as the worker node.",
+                        "description": "The linked code is a series of services, which work with GitHub workflows and secret management, to deploy services to a k8s instance. It also includes some of the services that were deployed, such as a tracker to see the current status of the cluster.<br><br>This code was used to deploy both to a Digital Ocean instance and a k4s instance running on baremetal. The baremetal included a raspberry pi as the core node, and a tower as the worker node.",
                         "tags": ["baremetal", "k4s", "gitOps", "ci/cd"]
                     }
                 }

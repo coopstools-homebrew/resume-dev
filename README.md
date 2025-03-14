@@ -4,9 +4,9 @@ This was originally a way for me to mess around with GitHub hosting, but turned 
 
 This page is created using [Ryan Balieiro](https://github.com/ryanbalieiro/vue-resume-template)'s template.
 
-## TODO
+## Changes
 
-This is based on a template and still has a lot of old data in it. Known issues that need to be corrected:
+This was based on a template and still had a lot of old data in it. Updates were needed both for the content, but also for how different pages display and how the layout was put together.
 
 - [x] Update workflow to include build step (thus removing the node_modules and dist folders)
 - [x] Update profile picture
@@ -24,7 +24,7 @@ This is based on a template and still has a lot of old data in it. Known issues 
 - [x] Update footer to give credit to Ryan for the template: src/vue/navigation/default/NavSidebar.vue
 - [x] Add ability to remove unused sections of the resume (ie portfolio)
 - [x] Updated and add back in skills section
-- [ ] Update and add back in achievements (maybe)
+- [ ] Update and add back in achievements (maybe) <- not sure what achievements to show
 - [ ] Change back and remove "getFilteredSections" (currently breaks mobile)
 - [x] Update and add back in ~~hobbies~~ Interests
-- [ ] Update and add back in portfolio (may just end up being my GitHub account)
+- [x] Update and add back in portfolio

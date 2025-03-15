@@ -27,7 +27,7 @@
             "locales": {
                 "en": {
                     "title": "Senior Software Engineer - Core API and DevOps Teams",
-                    "description": "- Worked with a distributed team split around the world<br>- Designed and Implemented an auto scaling CI pipeline with Jenkins and Kubernetes<br>- Designed and built asynchronous streaming service for scanning, encrypting, and managing large files",
+                    "description": "Lead a distributed team split around the world developing the core feature gating and authorization service<br>- Created a testing mechanic that brought builds from 30 min to 90 sec<br>- Proposed  and Implemented an auto scaling CI pipeline with Jenkins and Kubernetes<br>- Built and asynch streaming service for scanning, encrypting, and managing large files",
                     "tags": ["Jenkins", "Kubernetes", "Java", "Kafka", "Feature Flagging"]
                 }
             }
@@ -40,7 +40,7 @@
             "locales": {
                 "en": {
                     "title": "Lead Software Engineer - Developer Experience Team",
-                    "description": "- Built a team from scratch, working to encourage and nurture the careers of each team member<br>- Architected and built an event driven data bus for syncing and triggering distributed systems<br>- Worked on an AI approach for IT support, including data ingestion and integration with slack<br>- Built a number of automation tools which are currently used by thousands of internal",
+                    "description": "- Built a team from scratch, working to encourage and nurture the careers of each team member, resolve conflicts, set direction, foster a culture of growth and knowledge sharing<br>- Proposed, architected and built an event driven data bus, based on Redis streams, which used rapid, no-clode/low-code/functional approaches to integrate a wide spectrum of internal tools and services<br>- Lead a team building tools for  managing repository permissions/gates, CI/CD jobs, and user roles/permissions/approvals, all in an automated manner using the bus\nRealized tools that are used by thousands of internal engineers<br>- Collaborated with architects and dozens of other teams to collect requirements, address issues, and co-design solutions to speed up development across the org<br>- Worked on AI integration for IT support, building on the above automation tools using Agents",
                     "tags": ["Developer Tooling", "Golang", "Event Driven Architecture", "AI Agents", "GitOps"]
                 }
             }

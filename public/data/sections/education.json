@@ -16,7 +16,7 @@
             "locales": {
                 "en": {
                     "title": "Bachelors of Science in Electrical Engineering",
-                    "description": "Started doing lab research as an undergrad, where I built and programmed automated systems for measuring Ryleigh and Ricean Scattering for various antennas."
+                    "description": "Started doing lab research as an undergrad, where I built and programmed automated testing chambers to induce Rayleigh and Ricean Fading Patterns for antennas."
                 }
             }
         },
@@ -29,7 +29,7 @@
             "locales": {
                 "en": {
                     "title": "Masters of Science in Electrical Engineering",
-                    "description": "Continued my research work using an NSF Fellowship, which included working with k-5 schools, performing curriculum design with teachers and in-class lessons with students."
+                    "description": "Continued research work from  undergrad  using an NSF Fellowship. The fellowship included working with k-5 schools, performing curriculum design with teachers and in-class lessons with students."
                 }
             }
         },
@@ -42,7 +42,7 @@
             "locales": {
                 "en": {
                     "title": "Doctorate of Philosophy in Electrical Engineering",
-                    "description": "Continued building and programming automated systems for measurement, while also coding discrete time and finite element simulators for electromagnetic devices. Participated in mentorship program with pre-college students."
+                    "description": "Built and programmed automated systems for measurement, while also coding discrete time and finite element simulators for electromagnetic devices. Participated in a mentorship program with pre-college students."
                 }
             }
         }

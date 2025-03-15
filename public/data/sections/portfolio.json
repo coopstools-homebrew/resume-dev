@@ -35,7 +35,7 @@
                 "locales": {
                     "en": {
                         "description": "Took a basic template and figured out how to rewrite parts to fit my needs. Updated core code to disable certain tabs, change icon selections, and filter configs.",
-                        "tags": ["webpage", "profession"]
+                        "tags": ["webpage", "profession", "JavaScript", "Vue.js"]
                     }
                 }
             },
@@ -51,13 +51,13 @@
                 "locales": {
                     "en": {
                         "description": "Worked with a choreographer to plan out their needs. Then sewed together, soldered together, and programmed light-up skirt with multiple modes that would change through the show.",
-                        "tags": ["dance", "hardware"]
+                        "tags": ["dance", "hardware", "µPython"]
                     }
                 }
             }
         ],
 
-    "learning": [
+        "learning": [
             {
                 "id": "nes",
                 "title": "NES Hellord",
@@ -84,7 +84,7 @@
                 "locales": {
                     "en": {
                         "description": "In addition to the interpreter and REPL, there is a folder of examples of code I wrote, both learning the BF language and using it to test my interpreter. I am particularly proud of the N-element sorting algorithm, which uses bubble sort.<br><br>I wanted to build an interpreter from scratch with no guides. So, I chose a language that was explicitly designed to have the shortest interpreter.",
-                        "tags": ["programming language", "esoteric"]
+                        "tags": ["programming language", "esoteric", "golang"]
                     }
                 }
             },
@@ -99,7 +99,20 @@
                 "locales": {
                     "en": {
                         "description": "The linked code is a series of services, which work with GitHub workflows and secret management, to deploy services to a k8s instance. It also includes some of the services that were deployed, such as a tracker to see the current status of the cluster.<br><br>This code was used to deploy both to a Digital Ocean instance and a k4s instance running on baremetal. The baremetal included a raspberry pi as the core node, and a tower as the worker node.",
-                        "tags": ["baremetal", "k4s", "gitOps", "ci/cd"]
+                        "tags": ["baremetal", "k4s", "gitOps", "ci/cd", "golang", "JavaScript"]
+                    }
+                }
+            },
+
+            {
+                "id": "picluster",
+                "title": "Inventory Tracking",
+                "logoUrl": "images/portfolio/PisInARow.png",
+                "links": [],
+                "locales": {
+                    "en": {
+                        "description": "This project was done before I became a developer, while I was working with a small startup (didn't last long). We were building an inventory tracking system using RFID. We had these small RFID scanners, but needed a controller for each one. Since they where about the size of a Raspberry Pi, I bought a bunch of V1s to run the system. They were powered with PoE.<br><br>I didn't know anything about distributed systems when I started this job, and I had to learn while creating. Oh man, my life would have been so much simpler if I knew what Ansible was. This was before docker was widely used, and this version of Pi would have struggle to run a container without major changes.<br><br>As the head, and only member of, R&D, I cut and capped the ethernet cables, and soldered together the PoE receivers. I wrote all the Python and C code. Truly a fun time.",
+                        "tags": ["distributed", "Raspberry Pis", "PoE", "Python", "C"]
                     }
                 }
             }

@@ -11,10 +11,10 @@
         {
             "id": "programming",
             "type": "grid",
-            "progress": "number",
+            "progress": null,
             "faIcon": "fa fa-code",
             "locales": {
-                "en": {"title": "Programming"}
+                "en": {"title": "Programming",  "description": "something or other"}
             }
         },
 
@@ -46,7 +46,7 @@
                 "faIcon": "fa-brands fa-golang",
                 "value": 95,
                 "locales": {
-                    "en": {"title": "Golang", "description": "Experience Time: 8 years"}
+                    "en": {"title": "Golang", "description": "Experience Time: 9 years"}
                 }
             },
 
@@ -64,7 +64,7 @@
                 "faIcon": "fa-brands fa-java",
                 "value": 80,
                 "locales": {
-                    "en": {"title": "Java", "description": "Experience Time: 4 years"}
+                    "en": {"title": "Java", "description": "Experience Time: 5 years"}
                 }
             },
 
@@ -91,7 +91,7 @@
                 "faIcon": "fa-solid fa-gear",
                 "value": 60,
                 "locales": {
-                    "en": {"title": "Assembly (ARM and 8502)", "description": "Experience Time: Sporadic 5 years"}
+                    "en": {"title": "Assembly (ARM, ARM64 and 8502)", "description": "Experience Time: Sporadic over 5 years"}
                 }
             },
 
@@ -100,7 +100,7 @@
                 "faIcon": "fa-solid fa-plus-minus",
                 "value": 100,
                 "locales": {
-                    "en": {"title": "BrainF**k", "description": "Experience time: 3 years"}
+                    "en": {"title": "BrainF**k", "description": "Experience time: 3 years (learned while creating compiler"}
                 }
             }
         ],

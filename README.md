@@ -28,4 +28,4 @@ This was based on a template and still had a lot of old data in it. Updates were
 - [ ] Change back and remove "getFilteredSections" (currently breaks mobile)
 - [x] Update and add back in ~~hobbies~~ Interests
 - [x] Update and add back in portfolio
-- [ ] Remove percentages on known languages
+- [x] Remove percentages on known languages

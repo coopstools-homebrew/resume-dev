@@ -133,6 +133,18 @@
 
             {
                 "imageIconUrl": null,
+                "faIcon": "fa-solid fa-brain",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "AI // LLM Assistant",
+                        "description": "Cursor (hobby), CodeGenie (work), and Gemini (writing)"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
                 "faIcon": "fa-brands fa-slack",
                 "value": null,
                 "locales": {

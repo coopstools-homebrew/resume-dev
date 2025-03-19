@@ -76,14 +76,14 @@
 
             {
                 "id": "brainf**k",
-                "title": "BrainF**k Interpreter and REPL (ongoing)",
+                "title": "BrainF**k Interpreter, REPL, and Compiler",
                 "logoUrl": "images/portfolio/bf.png",
                 "links": [
                     {"faIcon": "fa-brands fa-github-alt", "href": "https://github.com/coopstools/brainf-k?tab=readme-ov-file#brainf-k", "id": "Interpreter and REPL Repo"}
                 ],
                 "locales": {
                     "en": {
-                        "description": "In addition to the interpreter and REPL, there is a folder of examples of code I wrote, both learning the BF language and using it to test my interpreter. I am particularly proud of the N-element sorting algorithm, which uses bubble sort.<br><br>I wanted to build an interpreter from scratch with no guides. So, I chose a language that was explicitly designed to have the shortest interpreter.",
+                        "description": "This projected used BrainF**k as simple language to better understand low level concepts for creating a programming language. I wanted to build an interpreter from scratch with no guides. So, I chose a language that was explicitly designed to have the shortest interpreter. The Compiler uses the tree built for the REPEL/Interpreter and translates it into C code, which is then compiled with gcc. Although the standard method would have been to build an IR with llvm or llgo, the same concept was realized with the transpiled method.<br><br>In addition to the compiler, there is a folder of BrainF**k code that was written from scratch, both for use in testing my interpreter, and generally learning the BF language as it requires a different method of thinking about problems. I am particularly proud of the N-element sorting algorithm, which uses bubble sort.",
                         "tags": ["programming language", "esoteric", "golang"]
                     }
                 }

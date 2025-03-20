@@ -100,7 +100,7 @@
                 "faIcon": "fa-solid fa-plus-minus",
                 "value": 100,
                 "locales": {
-                    "en": {"title": "BrainF**k", "description": "Experience time: 3 years (learned while creating compiler"}
+                    "en": {"title": "BrainF**k", "description": "Experience time: 3 years (learned while creating a compilera)"}
                 }
             }
         ],

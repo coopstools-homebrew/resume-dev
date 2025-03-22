@@ -161,20 +161,8 @@
                 "value": null,
                 "locales": {
                     "en": {
-                        "title": "Redis",
-                        "description": "Focused on streams for event driven architectures"
-                    }
-                }
-            },
-
-            {
-                "imageIconUrl": null,
-                "faIcon": "fa-solid fa-database",
-                "value": null,
-                "locales": {
-                    "en": {
-                        "title": "SQL and NoSql",
-                        "description": "Postgres (local/AWS Aurora), MySQL, DynamoDB, MangoDB"
+                        "title": "SQL and NoSql DBs",
+                        "description": "Postgres (local/AWS Aurora), Redis, MySQL, DynamoDB, MangoDB"
                     }
                 }
             },
@@ -187,6 +175,18 @@
                     "en": {
                         "title": "GitHub",
                         "description": "Repo, Workflows, Pages, Container Registry, Auth, Secrets, etc"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-cogs",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Other CI/CD Tools",
+                        "description": "Jenkins, Artifactory, Vaullt"
                     }
                 }
             }

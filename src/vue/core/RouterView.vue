@@ -14,13 +14,14 @@ import GallerySection from "../sections/gallery/GallerySection.vue"
 import InfoSection from "../sections/info/InfoSection.vue"
 import ThreadsSection from "../sections/threads/ThreadsSection.vue"
 import TimelineSection from "../sections/timeline/TimelineSection.vue"
+import LoginSection from "../sections/extra/LoginSection.vue"
 
 const data = useData()
 
 /**
  * @type {Object}
  */
-const SECTION_VUE_COMPONENTS = {DefaultSection, ContactSection, CoverSection, GallerySection, InfoSection, ThreadsSection, TimelineSection}
+const SECTION_VUE_COMPONENTS = {DefaultSection, ContactSection, CoverSection, GallerySection, InfoSection, ThreadsSection, TimelineSection, LoginSection}
 
 /**
  * @param {String} componentName

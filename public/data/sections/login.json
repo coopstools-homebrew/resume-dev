@@ -1,0 +1,17 @@
+{
+    "locales": {
+        "en": {
+            "title": "Login",
+            "description": "Login to the system"
+        }
+    },
+
+    "items": {
+        "github": {
+            "url": "https://github.com/login/oauth/authorize",
+            "clientId": "Ov23liXB9dGB11rQWCl3",
+            "redirectUri": "https://gh.coopstools.com/login",
+            "scopes": ["user:email", "read:user"]
+        }
+    }
+}

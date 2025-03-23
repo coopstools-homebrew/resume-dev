@@ -4,8 +4,8 @@
 
     "locales": {
         "en": {
-            "credits": "Site hosted in <a href=\"https://github.com/coopstools/resume\">GitHub Pages</a><br>Template based on <a href=\"https://github.com/ryanbalieiro/vue-resume-template\">Ryan Balieiro</a>",
-            "role": "Lead Software Engineer & Expert StackOverflow Googler"
+            "role": "Software Architect & Engineer",
+            "credits": "Site hosted in <a href=\"https://github.com/coopstools/resume\">GitHub Pages</a><br>Template based on <a href=\"https://github.com/ryanbalieiro/vue-resume-template\">Ryan Balieiro</a>"
         }
     },
 

@@ -61,6 +61,10 @@ const classList = computed(() => {
         classList += ' section-cover'
     }
 
+    if(props.sectionData['login']) {
+        classList += ' section-login'
+    }
+
     return classList
 })
 

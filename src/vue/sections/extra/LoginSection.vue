@@ -26,6 +26,13 @@ const loadingComplete = ref(false)
 const isAuthenticated = ref(false)
 const orgName = ref('')
 
+const ctApiUrl = import.meta.env.VITE_CT_API_URL
+const ctRedirectUrl = ctApiUrl + import.meta.env.VITE_CT_GITHUB_REDIRECT_PATH
+const ctUserDataUrl = ctApiUrl + import.meta.env.VITE_CT_USER_DATA_PATH
+
+
+const githubClientId = import.meta.env.VITE_GITHUB_CLIENT_ID
+
 /**
  * @property {Object} sectionData
  */
@@ -42,7 +49,7 @@ const loginTitle = computed(() => {
 
 const fetchUserData = async () => {
     try {
-        const response = await fetch('https://ce4b-104-129-206-200.ngrok-free.app/data', {
+        const response = await fetch(ctUserDataUrl, {
             credentials: 'include'
         })
 
@@ -78,8 +85,8 @@ onMounted(() => {
 const redirectToGitHub = () => {
     const githubConfig = props.sectionData.content.items.github
     const params = new URLSearchParams({
-        client_id: githubConfig.clientId,
-        redirect_uri: githubConfig.redirectUri,
+        client_id: githubClientId,
+        redirect_uri: ctRedirectUrl,
         scope: githubConfig.scopes.join(' ')
     })
     window.location.href = `${githubConfig.url}?${params.toString()}`

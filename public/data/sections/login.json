@@ -9,8 +9,6 @@
     "items": {
         "github": {
             "url": "https://github.com/login/oauth/authorize",
-            "clientId": "Ov23liXB9dGB11rQWCl3",
-            "redirectUri": "https://ce4b-104-129-206-200.ngrok-free.app/callback",
             "scopes": ["read:user"]
         }
     }

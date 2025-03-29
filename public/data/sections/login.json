@@ -1,8 +1,8 @@
 {
     "locales": {
         "en": {
-            "title": "Login",
-            "description": "Login to the system"
+            "title": "Playground",
+            "description": "This is a playground for the Coopstools project."
         }
     },
 
@@ -10,8 +10,8 @@
         "github": {
             "url": "https://github.com/login/oauth/authorize",
             "clientId": "Ov23liXB9dGB11rQWCl3",
-            "redirectUri": "https://gh.coopstools.com/login",
-            "scopes": ["user:email", "read:user"]
+            "redirectUri": "https://ce4b-104-129-206-200.ngrok-free.app/callback",
+            "scopes": ["read:user"]
         }
     }
 }

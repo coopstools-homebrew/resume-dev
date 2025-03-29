@@ -6,7 +6,7 @@
                 <i class="fa-brands fa-github me-2"></i>Login with GitHub
             </button>
             <div v-else class="mt-4 d-flex align-items-center">
-                <img :src="avatarUrl" alt="GitHub Avatar" class="github-avatar rounded-circle" />
+                <img :src="avatarUrl" alt="GitHub Avatar" class="rounded-circle" style="width: 24px; height: 24px;" />
                 <span class="ms-2">{{ orgName }}</span>
             </div>
         </div>
@@ -22,9 +22,9 @@ import {useNavigation} from "../../../composables/navigation.js"
 const data = useData()
 const navigation = useNavigation()
 const avatarUrl = ref(null)
-const orgName = ref(null)
 const loadingComplete = ref(false)
 const isAuthenticated = ref(false)
+const orgName = ref('')
 
 /**
  * @property {Object} sectionData
@@ -45,13 +45,27 @@ const fetchUserData = async () => {
         const response = await fetch('https://ce4b-104-129-206-200.ngrok-free.app/data', {
             credentials: 'include'
         })
-        const userData = await response.json()
-        avatarUrl.value = userData.avatar_url
-        orgName.value = userData.org_name
-        isAuthenticated.value = true
+
+        if (response.status >= 500) {
+            throw new Error(`Server error: ${response.status}`)
+        }
+
+        if (response.status === 400 || response.status === 401) {
+            isAuthenticated.value = false
+            return
+        }
+
+        if (response.status < 400) {
+            const userData = await response.json()
+            if (userData.avatar_url) {
+                avatarUrl.value = userData.avatar_url
+                orgName.value = userData.org_name || ''
+                isAuthenticated.value = true
+            }
+        }
     } catch (error) {
         console.error('Error fetching user data:', error)
-        isAuthenticated.value = false
+        throw error // Re-throw server errors
     } finally {
         loadingComplete.value = true
     }
@@ -79,11 +93,6 @@ const redirectToGitHub = () => {
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-weight: bold;
-}
-
-.github-avatar {
-    width: 32px;
-    height: 32px;
 }
 
 .solid-divider {

@@ -1,8 +1,12 @@
-# congenial-party
+# Coopstools Resume Dev
 
 This was originally a way for me to mess around with GitHub hosting, but turned into my personal resume webpage.
 
 This page is created using [Ryan Balieiro](https://github.com/ryanbalieiro/vue-resume-template)'s template.
+
+## Login
+
+In addition to the resume itself, there is a new section called PlayGround. The purpose of this section is to allow me, the author, to have a webpage where I can try out different things, such as an Auth0 login flow using GitHub as the Identity Provider.
 
 ## Changes
 

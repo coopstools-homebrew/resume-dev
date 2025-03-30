@@ -5,12 +5,6 @@
             "id": "en",
             "flagUrl": "images/flags/en.png",
             "default": true
-        },
-
-        {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
         }
     ],
 

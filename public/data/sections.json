@@ -85,6 +85,14 @@
             "component": "ContactSection",
             "jsonPath": "data/sections/contact.json",
             "faIcon": "fa-solid fa-pen-to-square"
+        },
+
+        {
+            "id": "login",
+            "categoryId": "more",
+            "component": "LoginSection",
+            "jsonPath": "data/sections/login.json",
+            "faIcon": "fa-solid fa-user"
         }
     ]
 }

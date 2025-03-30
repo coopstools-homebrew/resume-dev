@@ -1,0 +1,15 @@
+{
+    "locales": {
+        "en": {
+            "title": "Playground",
+            "description": "This is a playground for the Coopstools project."
+        }
+    },
+
+    "items": {
+        "github": {
+            "url": "https://github.com/login/oauth/authorize",
+            "scopes": ["read:user"]
+        }
+    }
+}
